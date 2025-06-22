@@ -5,9 +5,10 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
+import gdown
 
+df = gdown.download('https://drive.google.com/drive/folders/1toNn-I_5sR7p6OhJB0fzRecdLLBq-oT0?usp=sharing','athlete_events.csv', quiet=False)
 
-df = pd.read_csv('athlete_events.csv')
 region_df = pd.read_csv('noc_regions.csv')
 
 df = preprocessor.preprocess(df,region_df)

@@ -17,9 +17,9 @@ Due to GitHub's file size limitations, the large dataset files are dynamically l
 
 
 ## Dataset
-This app uses the publicly available Kaggle Olympic History dataset: https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
-athlete_events.csv – Athlete performance data
-noc_regions.csv – National Olympic Committees region mapping
+- This app uses the publicly available Kaggle Olympic History dataset: https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
+- athlete_events.csv – Athlete performance data
+- noc_regions.csv – National Olympic Committees region mapping
 
 Due to file size (>100MB), CSVs are not included in the GitHub repo and are loaded using Google Drive.
 
